@@ -1,0 +1,85 @@
+{
+  "version": 3,
+  "targets": {
+    "net5.0": {
+      "MyTask1ClassLib/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "compile": {
+          "bin/placeholder/MyTask1ClassLib.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/MyTask1ClassLib.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "MyTask1ClassLib/1.0.0": {
+      "type": "project",
+      "path": "../MyTask1ClassLib/MyTask1ClassLib.csproj",
+      "msbuildProject": "../MyTask1ClassLib/MyTask1ClassLib.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net5.0": [
+      "MyTask1ClassLib >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\mutiat\\.nuget\\packages\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Users\\mutiat\\Documents\\Women Techsters 2021\\Backend\\week 8\\weeklytask1\\MyCalculatorTask1\\MyWeeklyTask1.csproj",
+      "projectName": "MyWeeklyTask1",
+      "projectPath": "C:\\Users\\mutiat\\Documents\\Women Techsters 2021\\Backend\\week 8\\weeklytask1\\MyCalculatorTask1\\MyWeeklyTask1.csproj",
+      "packagesPath": "C:\\Users\\mutiat\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\mutiat\\Documents\\Women Techsters 2021\\Backend\\week 8\\weeklytask1\\MyCalculatorTask1\\obj\\",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "C:\\Users\\mutiat\\AppData\\Roaming\\NuGet\\NuGet.Config"
+      ],
+      "originalTargetFrameworks": [
+        "net5.0"
+      ],
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "projectReferences": {
+            "C:\\Users\\mutiat\\Documents\\Women Techsters 2021\\Backend\\week 8\\weeklytask1\\MyTask1ClassLib\\MyTask1ClassLib.csproj": {
+              "projectPath": "C:\\Users\\mutiat\\Documents\\Women Techsters 2021\\Backend\\week 8\\weeklytask1\\MyTask1ClassLib\\MyTask1ClassLib.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "net5.0": {
+        "targetAlias": "net5.0",
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.301\\RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}
